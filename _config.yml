@@ -1,81 +1,79 @@
-remote_theme: sujaykundu777/devlopr-jekyll  # Don't touch ( required for this theme)
+remote_theme: sujaykundu777/devlopr-jekyll # Don't touch ( required for this theme)
 
-# Edit your preferences below 
-title: John Doe
-subtitle: Full Stack Web Developer
+# Edit your preferences below
+title: Naoki Ohashi
+subtitle: WordPress Plugin Developer
 description: >- # this means to ignore newlines until "baseurl:"
-  John Doe uses devlopr-jekyll - a Jekyll Theme Built For Developers
+  naoki-is.me - the blog and portfolio by Naoki Ohashi
 
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Blog
-      url: /blog
-    - text: About Me
-      url: /about
-    - text: Contact Me
-      url : /contact
-    - text: Sample Page
-      url: /sample-page
+  - text: Blog
+    url: /blog
+  - text: About Me
+    url: /about
+  - text: Contact Me
+    url: /contact
 
-# Edit these details 
+# Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Naoki Ohashi
+author_bio: Hi, I'm Naoki Ohashi. I love to Code and CLI. I'm developing Gutenberg custom block plugin recently.
+author_email: "n.globe.us@gmail.com"
+author_location: Japan
+author_website_url: "https://naoki-is.me"
 
-author_work_experiences: 
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+author_work_experiences:
+  - company_name: Vektor
+    company_logo: vektor.png
+    company_url: https://www.vektor-inc.co.jp/
+    designation: WordPress plugin developer
+    description: Worked on VWS - WordPress Plugin and Theme Store, VK-Blocks - Gutenberg Custom Block Plugin.
+    visibility: true
+  - company_name: Shikumizukuri - Freelancer
+    company_logo: shikimizukuri.png
+    company_url:
+    designation: Web Developer
+    description: Developed various website.
+    visibility: true
 
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+# author_education_details:
+# - college_logo: mit.png
+#   college_name: MIT
+#   college_url: https://mit.org
+#   college_degree: CS Engineer
+#   description: Bachelor of Technology
+#   visibility: false
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: programmingebooks.png
-                project_title: Programming Ebooks
-                project_description: A Platform to easily find and read programming books
-                project_url: https://programmingebooks.com
-                visibility: true
+  # - project_thumbnail: gamershub.png
+  #   project_title: Gamers Hub
+  #   project_description: A Platform built for Gamers and Game Devs
+  #   project_url: https://gamershub.in
+  #   visibility: true
+  # - project_thumbnail: programmingebooks.png
+  #   project_title: Programming Ebooks
+  #   project_description: A Platform to easily find and read programming books
+  #   project_url: https://programmingebooks.com
+  #   visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: naogify
+github_username: naogify
+facebook_username: naogify
+# linkedin_username: johndoe
+# behance_username: johndoe
+instagram_username: naogify
+# medium_username: johndoe
+# telegram_username: johndoe
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
 #for comments using disqus
-disqus_shortname: sujay-kundu  
+disqus_shortname: sujay-kundu
 
 # wakatime username
 wakatime_username: sujaykundu777
@@ -86,7 +84,7 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10 
+google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
@@ -108,14 +106,13 @@ paginate: 8
 per_page: 4
 paginate_path: "/blog/page/:num/"
 
-# minify 
+# minify
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: ['development']
-
+    envs: ["development"]
 # Archives
 # jekyll-archives:
 #   enabled:
@@ -123,5 +120,4 @@ compress_html:
 #   layout: archive
 #   permalinks:
 #     category: '/category/:name/'
-
 
